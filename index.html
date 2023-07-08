@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+   <style>
+    *{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    margin: 100px 100px 100px 300px;
+    text-align: center;
+    flex-direction: row;
+    font-size: 40px;
+}
+.box{
+    height:40px;
+    width:40px;
+    border:.5px solid grey;
+    margin: 0px;
+    padding: 40px;
+}
+.black{
+    height:40px;
+    width:40px;
+    border: .5px solid grey ;
+    background-color:grey;
+}
+
+.box:hover{
+    background-color: gold;
+}
+
+@media screen and (max-width: 693px){
+    body{
+
+        height: 600px;
+        width: 400px;
+    }
+    h1{
+        text-align: center;
+        margin-left: 250px;
+    }
+    .container{
+        margin-left: 0px;
+        margin-top: 15px;
+        padding-bottom: 20px;
+    }
+    .box{
+        display:grid;
+        text-align: center;
+        height: .01rem;
+        width: .01rem;
+        font-size: 70%;
+    }
+
+}
+
+   </style>
+</head>
+<body>
+    <h1>CHESSBOARD</h1>
+    <div class="container">
+    <div class="box1">  
+       <div class="box">&#9820;</div>
+       <div class="box black">&#9823;</div>
+       <div class="box"></div>
+       <div class="box black"></div>
+       <div class="box"></div>
+       <div class="box black"></div>
+       <div class="box">&#9817;</div>
+       <div class="box black">&#9814;</div>
+    </div> 
+    <div class="box2">
+        <div class="box black">&#9822;</div>
+        <div class="box">&#9823;</div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black">&#9817;</div>
+        <div class="box">&#9816;</div>
+    </div>
+     <div class="box3">
+        <div class="box">&#9821;</div>
+        <div class="box black">&#9823;</div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box">&#9817;</div>
+        <div class="box black">&#9815;</div>
+     </div>
+     <div class="box4">
+        <div class="box black">&#9819;</div>
+        <div class="box">&#9823;</div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black">&#9817;</div>
+        <div class="box">&#9813;</div>
+     </div>
+     <div class="box5"> 
+        <div class="box">&#9818;</div>
+        <div class="box black">&#9823;</div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box">&#9817;</div>
+        <div class="box black">&#9812;</div>
+     </div>
+     <div class="box6">
+        <div class="box black">&#9821;</div>
+        <div class="box">&#9823;</div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black">&#9817;</div>
+        <div class="box">&#9815;</div>
+     </div>
+     <div class="box7">
+        <div class="box">&#9822;</div>
+        <div class="box black">&#9823;</div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box">&#9817;</div>
+        <div class="box black">&#9816;</div>
+     </div>
+     <div class="box8">
+        <div class="box black">&#9820;</div>
+        <div class="box">&#9823;</div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black"></div>
+        <div class="box"></div>
+        <div class="box black">&#9817;</div>
+        <div class="box">&#9814;</div>
+     </div>
+
+</body>
+</html>
